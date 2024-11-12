@@ -149,9 +149,9 @@ function App() {
         <Route
           path="/"
           element={
-            <CheckAuth isAuthenticated={isAuthenticated} user={user}>
+           
               <WebLayout />
-            </CheckAuth>
+           
           }
         >
           <Route path="/" element={<Home />} />
