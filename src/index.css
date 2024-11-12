@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color:  rgb(248 250 252);
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
